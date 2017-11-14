@@ -21,6 +21,21 @@ namespace jewel_thief
             this.Sack = new List<ICanBeStolen>();
         } 
 
+        public void Steal(ICanBeStolen item){
+            this.Sack.Add(item);
+        }
+
+        public int EvaluateSack()
+        {
+            int value = 0;
+
+            foreach(var item in this.Sack)
+              {
+                value += item.Value;
+              }
+
+            return value;
+        }
 
     }
 }

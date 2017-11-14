@@ -37,6 +37,7 @@
     <Compile Include="Jewel.cs" />
     <Compile Include="JewelTest.cs" />
     <Compile Include="Ruby.cs" />
+    <Compile Include="Sapphire.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

@@ -4,13 +4,13 @@ namespace jewel_thief
     public abstract class Jewel : ICanBeStolen
     {
         public bool Collectible { get; set; }
-        public int Worth { get; set; }
+        public int Value { get; set; }
         public int BurnValue { get; set; }
 
-        public Jewel(int worth)
+        public Jewel(int value)
         {
             this.Collectible = true;
-            this.Worth = worth;
+            this.Value = value;
             this.BurnValue = 0;
         }
 
