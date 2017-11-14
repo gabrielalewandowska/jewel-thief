@@ -1,0 +1,7 @@
+/Users/user/codeclan_work/projects/jewel_thief/jewel_thief/bin/Debug/jewel_thief.dll
+/Users/user/codeclan_work/projects/jewel_thief/jewel_thief/bin/Debug/jewel_thief.pdb
+/Users/user/codeclan_work/projects/jewel_thief/jewel_thief/bin/Debug/nunit.framework.dll
+/Users/user/codeclan_work/projects/jewel_thief/jewel_thief/bin/Debug/nunit.framework.xml
+/Users/user/codeclan_work/projects/jewel_thief/jewel_thief/obj/Debug/jewel_thief.csproj.CoreCompileInputs.cache
+/Users/user/codeclan_work/projects/jewel_thief/jewel_thief/obj/Debug/jewel_thief.dll
+/Users/user/codeclan_work/projects/jewel_thief/jewel_thief/obj/Debug/jewel_thief.pdb

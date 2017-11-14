@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 namespace jewel_thief
 {
     public class Thief
@@ -8,6 +9,7 @@ namespace jewel_thief
         public int Health { get; set; }
         public int Agility { get; set; }
         public int Strength { get; set; }
+        public List<ICanBeStolen> Sack {get; set;}
 
         public Thief(int luck, int socialSkills, int health, int agility, int strength)
         {
@@ -16,7 +18,9 @@ namespace jewel_thief
             this.Health = health;
             this.Agility = agility;
             this.Strength = strength;
+            this.Sack = new List<ICanBeStolen>();
         } 
+
 
     }
 }
