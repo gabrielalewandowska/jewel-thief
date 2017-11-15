@@ -31,16 +31,24 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ThiefTest.cs" />
     <Compile Include="Thief.cs" />
     <Compile Include="ICanBeStolen.cs" />
-    <Compile Include="Jewel.cs" />
-    <Compile Include="JewelTest.cs" />
-    <Compile Include="Ruby.cs" />
-    <Compile Include="Sapphire.cs" />
+    <Compile Include="Tests\JewelTest.cs" />
+    <Compile Include="Tests\ThiefTest.cs" />
+    <Compile Include="Jewels\Sapphire.cs" />
+    <Compile Include="Jewels\Ruby.cs" />
+    <Compile Include="Jewels\Jewel.cs" />
+    <Compile Include="Books\Book.cs" />
+    <Compile Include="Books\BookSummoningDragons.cs" />
+    <Compile Include="BookTest.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Tests\" />
+    <Folder Include="Jewels\" />
+    <Folder Include="Books\" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>

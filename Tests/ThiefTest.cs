@@ -51,5 +51,11 @@ namespace jewel_thief
             thief.Steal(sapphire);
             Assert.AreEqual(220, thief.EvaluateSack());
         }
+
+        [Test()]
+        public void ThiefCannotSummonDragons()
+        {
+            Assert.AreEqual(false, thief.CanSummonDragons);
+        }
     }
 }
